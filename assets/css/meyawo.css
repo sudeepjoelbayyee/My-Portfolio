@@ -12013,7 +12013,7 @@ pre .code {
 }
 
 .header .header-content .header-title .down {
-  font-size: calc(40px + (75 - 30) * ((100vw - 300px) / (1300 - 300)));
+  font-size: calc(35px + (75 - 30) * ((100vw - 300px) / (1300 - 300)));
   margin-bottom: 0;
   position: relative;
   display: block;
