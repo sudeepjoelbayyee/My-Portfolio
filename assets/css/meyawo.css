@@ -11289,7 +11289,7 @@ p {
 
 /* blog wrapper */
 .blog-card {
-  background-color: black;
+  background-color: grey;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -11303,6 +11303,7 @@ p {
 
 .blog-card:hover{
   transform: translateY(-10px);
+  background-color: black;
 }
 
 .blog-card-header {
