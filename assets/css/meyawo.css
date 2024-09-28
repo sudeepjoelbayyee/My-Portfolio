@@ -273,7 +273,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
+-webkit-appearance: button;
 }
 
 button:not(:disabled),
@@ -11963,24 +11963,24 @@ pre .code {
 .header {
   position: relative;
   height: 100vh;
-  min-height: 600px;
+  /* min-height: 400px; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-image: url(../imgs/header.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center center;
-}
+  background-repeat: no-repeat;
+}  
 
 .header .overlay {
   position: absolute;
@@ -12070,17 +12070,18 @@ pre .code {
 }
 
 /* Additional media query adjustments if necessary */
-@media (max-width: 991.98px) {
+@media (min-width: 1000px) {
   .header {
     background-size: cover;
   }
+  
   .header-content {
     padding-left: calc(100% / 5) !important;
     text-align: center; /* Ensure text is centered on smaller screens */
   }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1000px) {
   .header {
     background-size: cover;
   }
